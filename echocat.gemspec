@@ -7,7 +7,6 @@ Gem::Specification.new do |s|
   s.homepage    = ''
   s.authors     = ['Chavdar Dimitrov']
   s.email       = 'cdimitrov@evolutionit.bg'
-
   s.add_development_dependency 'rubocop', '~> 0.85'
   s.add_development_dependency 'byebug'
 

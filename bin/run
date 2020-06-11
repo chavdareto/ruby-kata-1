@@ -3,6 +3,11 @@
 
 require 'bundler/setup'
 require 'byebug'
+require 'csv'
 require 'echocat'
+require_relative '../lib/parsers/base'
+require_relative '../lib/parsers/book'
+require_relative '../lib/parsers/authors'
+require_relative '../lib/parsers/magazines'
 
 Echocat.run
